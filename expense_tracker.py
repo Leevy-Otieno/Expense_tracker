@@ -85,5 +85,7 @@ def summarize_expenses(expense_file_path, budget):
      print(f"Total spent: ksh{total_spent:.2f}")
      remaining_budget = budget - total_spent
      print(f"Remaining budget: ksh{remaining_budget:.2f}") 
+ 
+
 if __name__ == "__main__":
      main()
