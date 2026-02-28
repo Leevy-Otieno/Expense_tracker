@@ -1,5 +1,5 @@
 
-from expense import Expense
+from expense.expense import Expense
 
 
 def main():
