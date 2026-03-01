@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "username": "LLLL",
+        "password": "c775e7b757ede630cd0aa1113bd102661ab38829ca52a6422ab782862f268646",
+        "role": "investor"
+    },
+    {
+        "username": "ro",
+        "password": "b8dc2c143be8994682b08461f46487e05874e59dd9ab65cf973e3a3c67a763aa",
+        "role": "accountant"
+    }
+]

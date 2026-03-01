@@ -1,4 +1,5 @@
 from auth import register, login
+from investor_menu import run_investor_menu
 
 def founder_menu(user):
     while True:
@@ -39,22 +40,8 @@ def accountant_menu(user):
         else:
             print("Invalid choice. Try again.")
 
-
 def investor_menu(user):
-    while True:
-        print(f"\n--- Investor Menu ({user.get_username()}) ---")
-        print("1. View financial report (placeholder)")
-        print("2. Logout")
-
-        choice = input("Choose an option: ").strip()
-
-        if choice == "1":
-            print("Financial report feature coming soon! (This is a placeholder)")
-        elif choice == "2":
-            print("Logging out...\n")
-            break
-        else:
-            print("Invalid choice. Try again.")
+    run_investor_menu(user)
 
 
 def main_menu():
