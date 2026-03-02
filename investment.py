@@ -12,7 +12,7 @@ class Investment:
         self.type = inv_type
         self.amount = amount
         self.purchase_date = purchase_date
-        # If current_value not provided, assume it's still worth the same
+        
         self.current_value = current_value if current_value is not None else amount
     
     def to_dict(self):
