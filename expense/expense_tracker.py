@@ -6,7 +6,7 @@ import datetime
 def main():
     print(f" Running Expense Tracker!")
     expense_file_path = "expenses.json"
-    budget = 2000
+    budget = int(input("Enter your monthly budget: "))
 
     # Get user input for expense.
     expense = get_user_expense()
@@ -91,11 +91,10 @@ def summarize_expenses(expense_file_path, budget):
     remaining_days = days_in_month - now.day
 
     daily_budget = remaining_budget / remaining_days
-    print(green(f" Budget Per Day: ${daily_budget:.2f}"))
+    print(f" Budget Per Day: ${daily_budget:.2f}")
 
 
-def green(text):
-    return f"\033[92m{text}\033[0m"
+
 
 
 if __name__ == "__main__":
