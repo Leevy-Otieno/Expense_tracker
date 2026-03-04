@@ -14,22 +14,18 @@ class InvestmentService:
                 json.dump([], f)
     
     def get_all(self):
+        """Get all investments from file"""
         try:
             with open(self.file_path, 'r') as f:
                 data = json.load(f)
                 return [Investment.from_dict(item) for item in data]
-        except Exception as e:
-            print(f"Error reading investments: {e}")
+        except:
             return []
     
     def add(self, investment):
+        """Add a new investment"""
         investments = self.get_all()
         investments.append(investment)
         data = [inv.to_dict() for inv in investments]
         with open(self.file_path, 'w') as f:
             json.dump(data, f, indent=2)
-    
-    def get_summary(self):
-        investments = self.get_all()
-        total = sum(i.amount for i in investments)
-        return {'count': len(investments), 'total': total}

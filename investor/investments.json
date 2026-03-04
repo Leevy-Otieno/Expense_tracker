@@ -1,23 +1,23 @@
 [
   {
-    "name": "1",
-    "type": "3",
-    "amount": 0.0,
+    "name": "poor",
+    "type": "stock",
+    "amount": -0.0,
     "purchase_date": "22 2 2222",
-    "current_value": 0.0
+    "current_value": -0.0
   },
   {
     "name": "test",
-    "type": "Real Estate",
-    "amount": 20.0,
-    "purchase_date": "22 22 2222",
-    "current_value": 20.0
+    "type": "2",
+    "amount": 0.0,
+    "purchase_date": "11 11 1111",
+    "current_value": 0.0
   },
   {
-    "name": "TEST",
-    "type": "Stocks",
-    "amount": 20.0,
-    "purchase_date": "22 22 2222",
-    "current_value": 20.0
+    "name": "new",
+    "type": "something",
+    "amount": 0.0,
+    "purchase_date": "33 3 3333",
+    "current_value": 0.0
   }
 ]
