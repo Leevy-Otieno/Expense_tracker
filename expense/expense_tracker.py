@@ -1,5 +1,7 @@
-from expense import Expense
+
+from expense.expense import Expense
 import calendar
+import datetime
 import datetime
 
 
@@ -24,10 +26,10 @@ def get_user_expense():
     expense_amount = float(input("Enter expense amount: "))
     expense_categories = [
         " Food",
-        " Home",
-        " Work",
-        " Fun",
-        " Misc",
+        " Equipments",
+        " Wages for employees",
+        " Fuel",
+        " supplies",
     ]
 
     while True:
