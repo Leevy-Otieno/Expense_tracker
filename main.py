@@ -32,7 +32,10 @@ def accountant_menu(user):
         choice = input("Choose an option: ").strip()
 
         if choice == "1":
-            print("Expense feature coming soon! (This is a placeholder)")
+            from expense.expense_tracker import get_user_expense, save_expense_to_file, summarize_expenses
+            from expense.expense_tracker import get_user_expense, save_expense_to_file, summarize_expenses
+            expense = get_user_expense()
+            save_expense_to_file(expense, expense_file_path = "expenses.json")
         elif choice == "2":
             print("Logging out...\n")
             break

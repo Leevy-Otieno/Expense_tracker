@@ -8,5 +8,35 @@
         "username": "ro",
         "password": "b8dc2c143be8994682b08461f46487e05874e59dd9ab65cf973e3a3c67a763aa",
         "role": "accountant"
+    },
+    {
+        "username": "uu",
+        "password": "5afab9a620f6f11284505be2fb9a975b4dccfdd30970dffc7ed875490160e4d0",
+        "role": "accountant"
+    },
+    {
+        "username": "qwe",
+        "password": "489cd5dbc708c7e541de4d7cd91ce6d0f1613573b7fc5b40d3942ccb9555cf35",
+        "role": "accountant"
+    },
+    {
+        "username": "2323",
+        "password": "61503690505f84b144e6ac89124540a3eb8d22e77db76500984cfc50a1d8776e",
+        "role": "investor"
+    },
+    {
+        "username": "234",
+        "password": "114bd151f8fb0c58642d2170da4ae7d7c57977260ac2cc8905306cab6b2acabc",
+        "role": "accountant"
+    },
+    {
+        "username": "123",
+        "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "role": "accountant"
+    },
+    {
+        "username": "444",
+        "password": "3538a1ef2e113da64249eea7bd068b585ec7ce5df73b2d1e319d8c9bf47eb314",
+        "role": "accountant"
     }
 ]
