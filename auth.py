@@ -68,11 +68,11 @@ def login():
         if user["username"] == username and user["password"] == hashed_password:
             print("Login successful!")
 
-        if user["role"] == "founder":
+            if user["role"] == "founder":
                 return Founder(username, hashed_password)
-        elif user["role"] == "accountant":
+            elif user["role"] == "accountant":
                 return Accountant(username, hashed_password)
-        elif user["role"] == "investor":
+            elif user["role"] == "investor":
                 return Investor(username, hashed_password)
 
     print("Invalid username or password.")
